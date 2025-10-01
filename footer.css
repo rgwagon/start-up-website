@@ -1,0 +1,42 @@
+.footer {
+  background: #ffffff ;
+  padding: 20px;
+  text-align: center;
+  margin-top: 60px;
+  border-top: 1px solid #e0e0e0;
+}
+
+.footer p {
+  margin-bottom: 12px;
+  font-size: 14px;
+  color: #444;
+}
+
+.footer .social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
+.footer .social-icons a img {
+  width: 26px;
+  height: 26px;
+  filter: invert(30%) sepia(20%) saturate(500%) hue-rotate(200deg);
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.footer .social-icons a img:hover {
+  transform: scale(1.2);
+  filter: invert(10%) sepia(90%) saturate(1500%) hue-rotate(230deg);
+}
+
+.footer .social-icons a img {
+  width: 26px;
+  height: 26px;
+  filter: brightness(0) saturate(100%) invert(32%) sepia(92%) saturate(7495%) hue-rotate(209deg) brightness(95%) contrast(97%);
+  transition: transform 0.2s ease;
+}
+
+.footer .social-icons a img:hover {
+  transform: scale(1.2);
+}
